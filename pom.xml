@@ -26,48 +26,15 @@
 
         <dependency>
             <groupId>org.springframework.boot</groupId>
-            <artifactId>spring-boot-starter-data-mongodb-reactive</artifactId>
+            <artifactId>spring-boot-starter-test</artifactId>
+            <scope>test</scope>
         </dependency>
 
         <dependency>
             <groupId>org.springframework.boot</groupId>
-            <artifactId>spring-boot-starter-test</artifactId>
-            <scope>test</scope>
+            <artifactId>spring-boot-starter-data-mongodb-reactive</artifactId>
         </dependency>
-        <dependency>
-            <groupId>io.projectreactor</groupId>
-            <artifactId>reactor-test</artifactId>
-            <scope>test</scope>
-        </dependency>
-
-        <!--<dependency>-->
-            <!--<groupId>io.springfox</groupId>-->
-            <!--<artifactId>springfox-swagger-ui</artifactId>-->
-            <!--<version>3.0.0-SNAPSHOT</version>-->
-        <!--</dependency>-->
-
-        <!--<dependency>-->
-            <!--<groupId>io.springfox</groupId>-->
-            <!--<artifactId>springfox-swagger2</artifactId>-->
-            <!--<version>3.0.0-SNAPSHOT</version>-->
-        <!--</dependency>-->
-
-        <!--<dependency>-->
-            <!--<groupId>io.springfox</groupId>-->
-            <!--<artifactId>springfox-spring-webflux</artifactId>-->
-            <!--<version>3.0.0-SNAPSHOT</version>-->
-        <!--</dependency>-->
     </dependencies>
-    <!--<repositories>-->
-        <!--<repository>-->
-            <!--<id>oss-snapshot</id>-->
-            <!--<name>OSS Snapshot</name>-->
-            <!--<url>http://oss.jfrog.org/oss-snapshot-local</url>-->
-            <!--<snapshots>-->
-                <!--<enabled>true</enabled>-->
-            <!--</snapshots>-->
-        <!--</repository>-->
-    <!--</repositories>-->
 
     <build>
         <plugins>
